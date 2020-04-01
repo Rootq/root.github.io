@@ -92,7 +92,7 @@ nav {
   flex: 1;
   display: flex;
   justify-content: center;
-  height: 65vh;
+  height: 56vh;
 }
 .cover img {
   height: 100%;
@@ -127,7 +127,8 @@ nav {
   display: flex;
   justify-content: space-around;
   position: absolute;
-  right: 28%;
+  top: 72%;
+  right: 22.5%;
 }
 @keyframes drop{
   0% {
@@ -172,7 +173,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 324px) {
+@media screen and (max-width: 384px) {
   .presentation {
     flex-direction: column;
   }
@@ -196,7 +197,7 @@ nav {
     transform: translate(50%, 5%);
   }
   .cover img {
-    height: 10%;
+    height: 80%;
   }
   .small-circle, .big-circle, .mid-circle {
     opacity: 0.2;
